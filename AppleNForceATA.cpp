@@ -1059,7 +1059,7 @@ void AppleNForceATA::initializeHardware( void )
 		_mmapaddr = (void*)_mmap->getVirtualAddress();
 		if (_mmapaddr == 0) return;
 
-		DEBUG_LOG("%s::%s mapped memory at 0x%x\n", getName(), __FUNCTION__, (unsigned int)_mmapaddr);
+		DEBUG_LOG("%s::%s mapped memory at 0x%x\n", getName(), __FUNCTION__, (uintptr_t)_mmapaddr);
 		
 		// enable control access
 		_pcidevice->configWrite8( 0x50, _pcidevice->configRead8( 0x50 ) | 0x04 );

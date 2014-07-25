@@ -5,45 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>6A944121-F512-409E-AF12-2DDEEF8230E3</string>
+	<string>C6E1779B-64BE-47B3-BC6B-5D414C3B213C</string>
 	<key>IDESourceControlProjectName</key>
 	<string>AppleNForceATA</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>86A42AEA-158F-4521-A145-DEA527C98F5D</key>
-		<string>http://darwin-ata.googlecode.com/svn/trunk/AppleNForceATA</string>
+		<key>A0D3C029-E8B1-4431-AE2F-1F525D510229</key>
+		<string>https://github.com/jamiethemorris/AppleNForceATA.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>AppleNForceATA.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>86A42AEA-158F-4521-A145-DEA527C98F5D</key>
+		<key>A0D3C029-E8B1-4431-AE2F-1F525D510229</key>
 		<string>../..</string>
 	</dict>
-	<key>IDESourceControlProjectRepositoryRootDictionary</key>
-	<dict>
-		<key>86A42AEA-158F-4521-A145-DEA527C98F5D</key>
-		<string>http://darwin-ata.googlecode.com/svn</string>
-	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>http://darwin-ata.googlecode.com/svn/trunk/AppleNForceATA/AppleNForceATA.xcodeproj</string>
+	<string>https://github.com/jamiethemorris/AppleNForceATA.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>86A42AEA-158F-4521-A145-DEA527C98F5D</string>
+	<string>A0D3C029-E8B1-4431-AE2F-1F525D510229</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
-			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
-			<string>branches</string>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.subversion</string>
-			<key>IDESourceControlRepositoryTagsRelativeLocationKey</key>
-			<string>tags</string>
-			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
-			<string>trunk</string>
+			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>86A42AEA-158F-4521-A145-DEA527C98F5D</string>
+			<string>A0D3C029-E8B1-4431-AE2F-1F525D510229</string>
 			<key>IDESourceControlWCCName</key>
 			<string>AppleNForceATA_Snow</string>
 		</dict>
