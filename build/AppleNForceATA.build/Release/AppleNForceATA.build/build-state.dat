@@ -1,870 +1,0 @@
-TAppleNForceATA
-v7
-r0
-t302075288.735166
-cCheck dependencies
-cProcessInfoPlistFile /Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release/AppleNForceATA.kext/Contents/Info.plist Info.plist
-cPhaseScriptExecution Kextpreprocess /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Script-AB1D74B9113848FB006E2885.sh
-cCompileC build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATARoot.o /Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATARoot.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-cCompileC build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATAChannel.o /Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATAChannel.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-cCompileC build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA.o /Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATA.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-cCompileC build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA_vers.o /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_vers.c normal i386 c com.apple.compilers.llvmgcc42
-cCompileC build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA_info.o /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_info.c normal i386 c com.apple.compilers.llvmgcc42
-cCompileC build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATARoot.o /Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATARoot.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
-cCompileC build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATAChannel.o /Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATAChannel.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
-cLd /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA normal i386
-cCompileC build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA.o /Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATA.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
-cCompileC build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA_vers.o /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_vers.c normal x86_64 c com.apple.compilers.llvmgcc42
-cCompileC build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA_info.o /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_info.c normal x86_64 c com.apple.compilers.llvmgcc42
-cLd /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA normal x86_64
-cCreateUniversalBinary /Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release/AppleNForceATA.kext/Contents/MacOS/AppleNForceATA normal "i386 x86_64"
-cPhaseScriptExecution Kextpostprocess /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Script-AB1D74B7113848F5006E2885.sh
-cTouch /Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release/AppleNForceATA.kext
-
-N/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOBufferMemoryDescriptor.h
-c000000004B90BBA50000000000003246
-t1267776421
-s12870
-
-N/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IODeviceTreeSupport.h
-c000000004B90BBA50000000000000FA6
-t1267776421
-s4006
-
-N/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOFilterInterruptEventSource.h
-c000000004B90BBA50000000000001FA6
-t1267776421
-s8102
-
-N/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOKitKeys.h
-c000000004B90BBA50000000000001A5D
-t1267776421
-s6749
-
-N/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOLib.h
-c000000004B90BBA50000000000004DDF
-t1267776421
-s19935
-
-N/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOLocks.h
-c000000004B90BBA500000000000045C6
-t1267776421
-s17862
-
-N/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOMessage.h
-c000000004B90BBA50000000000000DE0
-t1267776421
-s3552
-
-N/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOService.h
-c000000004B90BBA6000000000001F49D
-t1267776422
-s128157
-
-N/System/Library/Frameworks/Kernel.framework/Headers/IOKit/assert.h
-c000000004B90BBA600000000000006CC
-t1267776422
-s1740
-
-N/System/Library/Frameworks/Kernel.framework/Headers/IOKit/ata/ATADeviceNub.h
-c000000004B90C7D500000000000013D6
-t1267779541
-s5078
-
-N/System/Library/Frameworks/Kernel.framework/Headers/IOKit/ata/IOATAController.h
-c000000004B90C7D50000000000002BDF
-t1267779541
-s11231
-
-N/System/Library/Frameworks/Kernel.framework/Headers/IOKit/ata/IOATATypes.h
-c000000004B90C7D50000000000003F92
-t1267779541
-s16274
-
-N/System/Library/Frameworks/Kernel.framework/Headers/IOKit/ata/IOPCIATA.h
-c000000004B90C7D500000000000018A2
-t1267779541
-s6306
-
-N/System/Library/Frameworks/Kernel.framework/Headers/IOKit/pci/IOPCIDevice.h
-c000000004B90C75B0000000000008708
-t1267779419
-s34568
-
-N/System/Library/Frameworks/Kernel.framework/Headers/IOKit/storage/IOStorageProtocolCharacteristics.h
-c000000004B90C7A10000000000009A52
-t1267779489
-s39506
-
-N/System/Library/Frameworks/Kernel.framework/Headers/sys/systm.h
-c000000004B90BBB20000000000001A99
-t1267776434
-s6809
-
-N/System/Library/Frameworks/Kernel.framework/PrivateHeaders/IOKit/IOBufferMemoryDescriptor.h
-c000000004B3B89A90000000000003246
-t1262193065
-s12870
-
-N/System/Library/Frameworks/Kernel.framework/PrivateHeaders/IOKit/IODeviceTreeSupport.h
-c000000004B3B89A90000000000000FA6
-t1262193065
-s4006
-
-N/System/Library/Frameworks/Kernel.framework/PrivateHeaders/IOKit/IOFilterInterruptEventSource.h
-c000000004B3B89A90000000000001FA6
-t1262193065
-s8102
-
-N/System/Library/Frameworks/Kernel.framework/PrivateHeaders/IOKit/IOKitKeys.h
-c000000004B3B89A90000000000001A5D
-t1262193065
-s6749
-
-N/System/Library/Frameworks/Kernel.framework/PrivateHeaders/IOKit/IOLib.h
-c000000004B3B89A90000000000004DDF
-t1262193065
-s19935
-
-N/System/Library/Frameworks/Kernel.framework/PrivateHeaders/IOKit/IOLocks.h
-c000000004B3B89A900000000000045C6
-t1262193065
-s17862
-
-N/System/Library/Frameworks/Kernel.framework/PrivateHeaders/IOKit/IOMessage.h
-c000000004B3B89A90000000000000DE0
-t1262193065
-s3552
-
-N/System/Library/Frameworks/Kernel.framework/PrivateHeaders/IOKit/IOService.h
-c000000004B3B89A9000000000001F51C
-t1262193065
-s128284
-
-N/System/Library/Frameworks/Kernel.framework/PrivateHeaders/IOKit/assert.h
-c000000004B3B89A900000000000006CC
-t1262193065
-s1740
-
-N/System/Library/Frameworks/Kernel.framework/PrivateHeaders/sys/systm.h
-c000000004B3B89A90000000000001BC1
-t1262193065
-s7105
-
-N/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATA.cpp
-c000000004B881699000000000000C4F4
-t1267209881
-s50420
-i<sys/systm.h>
-i<IOKit/assert.h>
-i<IOKit/IOMessage.h>
-i<IOKit/IOKitKeys.h>
-i<IOKit/pci/IOPCIDevice.h>
-i<IOKit/storage/IOStorageProtocolCharacteristics.h>
-i"AppleNForceATA.h"
-
-N/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATA.h
-c000000004B88147F0000000000001713
-t1267209343
-s5907
-i<IOKit/IOFilterInterruptEventSource.h>
-i<IOKit/IOBufferMemoryDescriptor.h>
-i<IOKit/ata/IOATATypes.h>
-i<IOKit/ata/IOPCIATA.h>
-i<IOKit/ata/IOATAController.h>
-i<IOKit/ata/ATADeviceNub.h>
-i"AppleNForceATAHardware.h"
-i"AppleNForceATAChannel.h"
-i"AppleNForceATATiming.h"
-
-N/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATAChannel.cpp
-c000000004AD8CE130000000000001D34
-t1255722515
-s7476
-i<IOKit/IODeviceTreeSupport.h>
-i"AppleNForceATAChannel.h"
-i"AppleNForceATARoot.h"
-i"AppleNForceATAHardware.h"
-
-N/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATAChannel.h
-c000000004AD8CE130000000000000BC9
-t1255722515
-s3017
-i<IOKit/IOService.h>
-
-N/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATAHardware.h
-c000000004AD8CE130000000000001721
-t1255722515
-s5921
-
-N/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATARoot.cpp
-c000000004B88137D00000000000048D4
-t1267209085
-s18644
-i<IOKit/IOLib.h>
-i<IOKit/IODeviceTreeSupport.h>
-i"AppleNForceATARoot.h"
-i"AppleNForceATAChannel.h"
-i"AppleNForceATAHardware.h"
-
-N/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATARoot.h
-c000000004B88143C0000000000000D5F
-t1267209276
-s3423
-i<IOKit/IOLocks.h>
-i<IOKit/pci/IOPCIDevice.h>
-
-N/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATATiming.h
-c000000004AD8CE1300000000000016A5
-t1255722515
-s5797
-i"AppleNForceATAHardware.h"
-
-N/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_info.c
-c000000004B8818D500000000000001A8
-t1267210453
-s424
-
-N/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_vers.c
-c000000004B8818D500000000000000DC
-t1267210453
-s220
-
-N/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA
-t1267210466
-s70324
-
-N/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA.LinkFileList
-c000000004B8818D50000000000000270
-t1267210453
-s624
-
-N/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA.o
-t1267210464
-s45672
-
-N/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATAChannel.o
-t1267210458
-s27924
-
-N/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATARoot.o
-t1267210459
-s30832
-
-N/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA_info.o
-t1267210465
-s640
-
-N/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA_vers.o
-t1267210465
-s468
-
-N/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA
-t1267210476
-s77200
-
-N/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA.LinkFileList
-c000000004B8818D50000000000000278
-t1267210453
-s632
-
-N/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA.o
-t1267210476
-s48028
-
-N/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATAChannel.o
-t1267210471
-s28736
-
-N/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATARoot.o
-t1267210469
-s32308
-
-N/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA_info.o
-t1267210465
-s828
-
-N/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA_vers.o
-t1267210465
-s612
-
-N/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Script-AB1D74B7113848F5006E2885.sh
-c000000004B8818D50000000000000098
-t1267210453
-s152
-
-N/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Script-AB1D74B9113848FB006E2885.sh
-c000000004B8818D50000000000000097
-t1267210453
-s151
-
-N/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release/AppleNForceATA.kext
-t1267210477
-s102
-
-N/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release/AppleNForceATA.kext/Contents/Info.plist
-t1267210453
-s2902
-
-N/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release/AppleNForceATA.kext/Contents/MacOS/AppleNForceATA
-t1267210477
-s155024
-
-N/Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATA.cpp
-c000000004C51160B000000000000C717
-t1280382475
-s50967
-i<sys/systm.h>
-i<IOKit/assert.h>
-i<IOKit/IOMessage.h>
-i<IOKit/IOKitKeys.h>
-i<IOKit/pci/IOPCIDevice.h>
-i<IOKit/storage/IOStorageProtocolCharacteristics.h>
-i"AppleNForceATA.h"
-
-N/Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATA.h
-c000000004B8819110000000000001713
-t1267210513
-s5907
-i<IOKit/IOFilterInterruptEventSource.h>
-i<IOKit/IOBufferMemoryDescriptor.h>
-i<IOKit/ata/IOATATypes.h>
-i<IOKit/ata/IOPCIATA.h>
-i<IOKit/ata/IOATAController.h>
-i<IOKit/ata/ATADeviceNub.h>
-i"AppleNForceATAHardware.h"
-i"AppleNForceATAChannel.h"
-i"AppleNForceATATiming.h"
-
-N/Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATAChannel.cpp
-c000000004B8819110000000000001D34
-t1267210513
-s7476
-i<IOKit/IODeviceTreeSupport.h>
-i"AppleNForceATAChannel.h"
-i"AppleNForceATARoot.h"
-i"AppleNForceATAHardware.h"
-
-N/Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATAChannel.h
-c000000004B8819110000000000000BC9
-t1267210513
-s3017
-i<IOKit/IOService.h>
-
-N/Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATAHardware.h
-c000000004B8819110000000000001721
-t1267210513
-s5921
-
-N/Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATARoot.cpp
-c000000004B88191100000000000048D4
-t1267210513
-s18644
-i<IOKit/IOLib.h>
-i<IOKit/IODeviceTreeSupport.h>
-i"AppleNForceATARoot.h"
-i"AppleNForceATAChannel.h"
-i"AppleNForceATAHardware.h"
-
-N/Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATARoot.h
-c000000004B8819110000000000000D5F
-t1267210513
-s3423
-i<IOKit/IOLocks.h>
-i<IOKit/pci/IOPCIDevice.h>
-
-N/Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATATiming.h
-c000000004B88191100000000000016A5
-t1267210513
-s5797
-i"AppleNForceATAHardware.h"
-
-N/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_info.c
-c000000004C51161700000000000001A8
-t1280382487
-s424
-
-N/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_vers.c
-c000000004C51161700000000000000DC
-t1280382487
-s220
-
-N/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA
-t1280382488
-s69260
-
-N/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA.LinkFileList
-c000000004C511617000000000000023C
-t1280382487
-s572
-
-N/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA.o
-t1280382488
-s45220
-
-N/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATAChannel.o
-t1280382487
-s27568
-
-N/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATARoot.o
-t1280382487
-s30372
-
-N/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA_info.o
-t1280382487
-s640
-
-N/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA_vers.o
-t1280382487
-s468
-
-N/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA
-t1280382488
-s77200
-
-N/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA.LinkFileList
-c000000004C5116170000000000000244
-t1280382487
-s580
-
-N/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA.o
-t1280382488
-s47496
-
-N/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATAChannel.o
-t1280382488
-s28344
-
-N/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATARoot.o
-t1280382487
-s31964
-
-N/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA_info.o
-t1280382488
-s828
-
-N/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA_vers.o
-t1280382488
-s612
-
-N/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Script-AB1D74B7113848F5006E2885.sh
-c000000004C5116170000000000000098
-t1280382487
-s152
-
-N/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Script-AB1D74B9113848FB006E2885.sh
-c000000004C5116170000000000000097
-t1280382487
-s151
-
-N/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release/AppleNForceATA.kext
-t1280382488
-s102
-
-N/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release/AppleNForceATA.kext/Contents/Info.plist
-t1280382487
-s2902
-
-N/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release/AppleNForceATA.kext/Contents/MacOS/AppleNForceATA
-t1280382488
-s150928
-
-NInfo.plist
-c000000004B8819110000000000000B60
-t1267210513
-s2912
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies302075287#302075287#0(0"0(0#1#0"8607611776#0"0#
-
-CCompileC build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA.o /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATA.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-s288903259.342583
-e288903264.980556
-r1
-xCompileC
-xbuild/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA.o
-x/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATA.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvmgcc42
-lSLF07#2@85"Compile /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATA.cpp288903259#288903264#0(0"0(0#0#77"/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATA.cpp546928#1906"    cd /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fno-exceptions -fno-rtti -fcheck-new -fasm-blocks -force_cpusubtype_ALL -msoft-float -O3 -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -fapple-kext -ftree-vectorize -fprofile-use -mmacosx-version-min=10.6 -fopenmp -iquote /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-generated-files.hmap -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-own-target-headers.hmap -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-all-target-headers.hmap -iquote /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-project-headers.hmap -F/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/System/Library/Frameworks/Kernel.framework/Headers -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/i386 -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources -c /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATA.cpp -o /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA.o0#
-
-CCompileC build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA.o /Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATA.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-s302075287.475347
-e302075288.061334
-r1
-xCompileC
-xbuild/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA.o
-x/Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATA.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvmgcc42
-lSLF07#2@72"Compile /Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATA.cpp302075287#302075288#0(0"0(0#0#64"/Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATA.cpp8603433856#1763"    cd /Users/dopefish/Downloads/AppleNForceATA_Snow    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fno-exceptions -fno-rtti -fcheck-new -fasm-blocks -force_cpusubtype_ALL -msoft-float -O3 -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -fapple-kext -ftree-vectorize -fprofile-use -mmacosx-version-min=10.6 -fopenmp -iquote /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-generated-files.hmap -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-own-target-headers.hmap -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-all-target-headers.hmap -iquote /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-project-headers.hmap -F/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/System/Library/Frameworks/Kernel.framework/Headers -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/i386 -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources -c /Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATA.cpp -o /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA.o0#
-
-CCompileC build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATAChannel.o /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATAChannel.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-s288903253.998425
-e288903258.676047
-r1
-xCompileC
-xbuild/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATAChannel.o
-x/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATAChannel.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvmgcc42
-lSLF07#2@92"Compile /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATAChannel.cpp288903254#288903258#0(0"0(0#0#84"/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATAChannel.cpp546928#1920"    cd /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fno-exceptions -fno-rtti -fcheck-new -fasm-blocks -force_cpusubtype_ALL -msoft-float -O3 -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -fapple-kext -ftree-vectorize -fprofile-use -mmacosx-version-min=10.6 -fopenmp -iquote /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-generated-files.hmap -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-own-target-headers.hmap -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-all-target-headers.hmap -iquote /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-project-headers.hmap -F/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/System/Library/Frameworks/Kernel.framework/Headers -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/i386 -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources -c /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATAChannel.cpp -o /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATAChannel.o0#
-
-CCompileC build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATAChannel.o /Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATAChannel.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-s302075287.172991
-e302075287.475255
-r1
-xCompileC
-xbuild/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATAChannel.o
-x/Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATAChannel.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvmgcc42
-lSLF07#2@79"Compile /Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATAChannel.cpp302075287#302075287#0(0"0(0#0#71"/Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATAChannel.cpp8606808256#1777"    cd /Users/dopefish/Downloads/AppleNForceATA_Snow    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fno-exceptions -fno-rtti -fcheck-new -fasm-blocks -force_cpusubtype_ALL -msoft-float -O3 -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -fapple-kext -ftree-vectorize -fprofile-use -mmacosx-version-min=10.6 -fopenmp -iquote /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-generated-files.hmap -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-own-target-headers.hmap -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-all-target-headers.hmap -iquote /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-project-headers.hmap -F/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/System/Library/Frameworks/Kernel.framework/Headers -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/i386 -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources -c /Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATAChannel.cpp -o /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATAChannel.o0#
-
-CCompileC build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATARoot.o /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATARoot.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-s288903253.936898
-e288903259.342098
-r1
-xCompileC
-xbuild/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATARoot.o
-x/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATARoot.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvmgcc42
-lSLF07#2@89"Compile /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATARoot.cpp288903253#288903259#0(0"0(0#0#81"/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATARoot.cpp546928#1914"    cd /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fno-exceptions -fno-rtti -fcheck-new -fasm-blocks -force_cpusubtype_ALL -msoft-float -O3 -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -fapple-kext -ftree-vectorize -fprofile-use -mmacosx-version-min=10.6 -fopenmp -iquote /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-generated-files.hmap -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-own-target-headers.hmap -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-all-target-headers.hmap -iquote /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-project-headers.hmap -F/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/System/Library/Frameworks/Kernel.framework/Headers -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/i386 -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources -c /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATARoot.cpp -o /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATARoot.o0#
-
-CCompileC build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATARoot.o /Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATARoot.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-s302075287.171601
-e302075287.531783
-r1
-xCompileC
-xbuild/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATARoot.o
-x/Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATARoot.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvmgcc42
-lSLF07#2@76"Compile /Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATARoot.cpp302075287#302075287#0(0"0(0#0#68"/Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATARoot.cpp8607531712#1771"    cd /Users/dopefish/Downloads/AppleNForceATA_Snow    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fno-exceptions -fno-rtti -fcheck-new -fasm-blocks -force_cpusubtype_ALL -msoft-float -O3 -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -fapple-kext -ftree-vectorize -fprofile-use -mmacosx-version-min=10.6 -fopenmp -iquote /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-generated-files.hmap -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-own-target-headers.hmap -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-all-target-headers.hmap -iquote /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-project-headers.hmap -F/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/System/Library/Frameworks/Kernel.framework/Headers -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/i386 -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources -c /Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATARoot.cpp -o /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATARoot.o0#
-
-CCompileC build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA_info.o /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_info.c normal i386 c com.apple.compilers.llvmgcc42
-s288903264.985790
-e288903265.584200
-r1
-xCompileC
-xbuild/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA_info.o
-x/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_info.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvmgcc42
-lSLF07#2@159"Compile /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_info.c288903264#288903265#0(0"0(0#0#151"/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_info.c546928#1932"    cd /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fasm-blocks -force_cpusubtype_ALL -msoft-float -O3 -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -ftree-vectorize -fprofile-use -mmacosx-version-min=10.6 -fopenmp -iquote /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-generated-files.hmap -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-own-target-headers.hmap -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-all-target-headers.hmap -iquote /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-project-headers.hmap -F/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/System/Library/Frameworks/Kernel.framework/Headers -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/i386 -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources -c /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_info.c -o /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA_info.o0#
-
-CCompileC build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA_info.o /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_info.c normal i386 c com.apple.compilers.llvmgcc42
-s302075287.554256
-e302075287.589930
-r1
-xCompileC
-xbuild/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA_info.o
-x/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_info.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvmgcc42
-lSLF07#2@146"Compile /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_info.c302075287#302075287#0(0"0(0#0#138"/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_info.c8599767520#1789"    cd /Users/dopefish/Downloads/AppleNForceATA_Snow    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fasm-blocks -force_cpusubtype_ALL -msoft-float -O3 -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -ftree-vectorize -fprofile-use -mmacosx-version-min=10.6 -fopenmp -iquote /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-generated-files.hmap -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-own-target-headers.hmap -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-all-target-headers.hmap -iquote /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-project-headers.hmap -F/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/System/Library/Frameworks/Kernel.framework/Headers -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/i386 -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources -c /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_info.c -o /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA_info.o0#
-
-CCompileC build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA_vers.o /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_vers.c normal i386 c com.apple.compilers.llvmgcc42
-s288903264.981224
-e288903265.188452
-r1
-xCompileC
-xbuild/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA_vers.o
-x/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_vers.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvmgcc42
-lSLF07#2@159"Compile /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_vers.c288903264#288903265#0(0"0(0#0#151"/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_vers.c546928#1932"    cd /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fasm-blocks -force_cpusubtype_ALL -msoft-float -O3 -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -ftree-vectorize -fprofile-use -mmacosx-version-min=10.6 -fopenmp -iquote /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-generated-files.hmap -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-own-target-headers.hmap -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-all-target-headers.hmap -iquote /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-project-headers.hmap -F/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/System/Library/Frameworks/Kernel.framework/Headers -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/i386 -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources -c /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_vers.c -o /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA_vers.o0#
-
-CCompileC build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA_vers.o /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_vers.c normal i386 c com.apple.compilers.llvmgcc42
-s302075287.531878
-e302075287.554167
-r1
-xCompileC
-xbuild/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA_vers.o
-x/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_vers.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvmgcc42
-lSLF07#2@146"Compile /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_vers.c302075287#302075287#0(0"0(0#0#138"/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_vers.c8603036960#1789"    cd /Users/dopefish/Downloads/AppleNForceATA_Snow    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fasm-blocks -force_cpusubtype_ALL -msoft-float -O3 -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -ftree-vectorize -fprofile-use -mmacosx-version-min=10.6 -fopenmp -iquote /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-generated-files.hmap -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-own-target-headers.hmap -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-all-target-headers.hmap -iquote /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-project-headers.hmap -F/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/System/Library/Frameworks/Kernel.framework/Headers -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/i386 -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources -c /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_vers.c -o /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA_vers.o0#
-
-CCompileC build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA.o /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATA.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
-s288903271.658971
-e288903276.742728
-r1
-xCompileC
-xbuild/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA.o
-x/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATA.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvmgcc42
-lSLF07#2@85"Compile /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATA.cpp288903271#288903276#0(0"0(0#0#77"/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATA.cpp546928#1912"    cd /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fno-exceptions -fno-rtti -fcheck-new -fasm-blocks -force_cpusubtype_ALL -msoft-float -O3 -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -fapple-kext -ftree-vectorize -fprofile-use -mmacosx-version-min=10.6 -fopenmp -iquote /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-generated-files.hmap -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-own-target-headers.hmap -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-all-target-headers.hmap -iquote /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-project-headers.hmap -F/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/System/Library/Frameworks/Kernel.framework/Headers -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/x86_64 -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources -c /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATA.cpp -o /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA.o0#
-
-CCompileC build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA.o /Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATA.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
-s302075288.111298
-e302075288.688033
-r1
-xCompileC
-xbuild/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA.o
-x/Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATA.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvmgcc42
-lSLF07#2@72"Compile /Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATA.cpp302075288#302075288#0(0"0(0#0#64"/Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATA.cpp8606981088#1769"    cd /Users/dopefish/Downloads/AppleNForceATA_Snow    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fno-exceptions -fno-rtti -fcheck-new -fasm-blocks -force_cpusubtype_ALL -msoft-float -O3 -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -fapple-kext -ftree-vectorize -fprofile-use -mmacosx-version-min=10.6 -fopenmp -iquote /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-generated-files.hmap -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-own-target-headers.hmap -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-all-target-headers.hmap -iquote /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-project-headers.hmap -F/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/System/Library/Frameworks/Kernel.framework/Headers -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/x86_64 -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources -c /Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATA.cpp -o /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA.o0#
-
-CCompileC build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATAChannel.o /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATAChannel.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
-s288903269.586087
-e288903271.658323
-r1
-xCompileC
-xbuild/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATAChannel.o
-x/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATAChannel.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvmgcc42
-lSLF07#2@92"Compile /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATAChannel.cpp288903269#288903271#0(0"0(0#0#84"/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATAChannel.cpp546928#1926"    cd /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fno-exceptions -fno-rtti -fcheck-new -fasm-blocks -force_cpusubtype_ALL -msoft-float -O3 -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -fapple-kext -ftree-vectorize -fprofile-use -mmacosx-version-min=10.6 -fopenmp -iquote /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-generated-files.hmap -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-own-target-headers.hmap -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-all-target-headers.hmap -iquote /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-project-headers.hmap -F/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/System/Library/Frameworks/Kernel.framework/Headers -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/x86_64 -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources -c /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATAChannel.cpp -o /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATAChannel.o0#
-
-CCompileC build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATAChannel.o /Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATAChannel.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
-s302075287.913604
-e302075288.195706
-r1
-xCompileC
-xbuild/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATAChannel.o
-x/Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATAChannel.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvmgcc42
-lSLF07#2@79"Compile /Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATAChannel.cpp302075287#302075288#0(0"0(0#0#71"/Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATAChannel.cpp8606995840#1783"    cd /Users/dopefish/Downloads/AppleNForceATA_Snow    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fno-exceptions -fno-rtti -fcheck-new -fasm-blocks -force_cpusubtype_ALL -msoft-float -O3 -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -fapple-kext -ftree-vectorize -fprofile-use -mmacosx-version-min=10.6 -fopenmp -iquote /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-generated-files.hmap -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-own-target-headers.hmap -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-all-target-headers.hmap -iquote /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-project-headers.hmap -F/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/System/Library/Frameworks/Kernel.framework/Headers -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/x86_64 -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources -c /Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATAChannel.cpp -o /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATAChannel.o0#
-
-CCompileC build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATARoot.o /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATARoot.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
-s288903266.341398
-e288903269.585408
-r1
-xCompileC
-xbuild/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATARoot.o
-x/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATARoot.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvmgcc42
-lSLF07#2@89"Compile /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATARoot.cpp288903266#288903269#0(0"0(0#0#81"/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATARoot.cpp546928#1920"    cd /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fno-exceptions -fno-rtti -fcheck-new -fasm-blocks -force_cpusubtype_ALL -msoft-float -O3 -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -fapple-kext -ftree-vectorize -fprofile-use -mmacosx-version-min=10.6 -fopenmp -iquote /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-generated-files.hmap -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-own-target-headers.hmap -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-all-target-headers.hmap -iquote /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-project-headers.hmap -F/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/System/Library/Frameworks/Kernel.framework/Headers -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/x86_64 -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources -c /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATARoot.cpp -o /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATARoot.o0#
-
-CCompileC build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATARoot.o /Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATARoot.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
-s302075287.590023
-e302075287.913503
-r1
-xCompileC
-xbuild/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATARoot.o
-x/Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATARoot.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvmgcc42
-lSLF07#2@76"Compile /Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATARoot.cpp302075287#302075287#0(0"0(0#0#68"/Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATARoot.cpp8599290656#1777"    cd /Users/dopefish/Downloads/AppleNForceATA_Snow    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fno-exceptions -fno-rtti -fcheck-new -fasm-blocks -force_cpusubtype_ALL -msoft-float -O3 -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -fapple-kext -ftree-vectorize -fprofile-use -mmacosx-version-min=10.6 -fopenmp -iquote /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-generated-files.hmap -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-own-target-headers.hmap -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-all-target-headers.hmap -iquote /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-project-headers.hmap -F/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/System/Library/Frameworks/Kernel.framework/Headers -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/x86_64 -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources -c /Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATARoot.cpp -o /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATARoot.o0#
-
-CCompileC build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA_info.o /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_info.c normal x86_64 c com.apple.compilers.llvmgcc42
-s288903265.407316
-e288903265.791808
-r1
-xCompileC
-xbuild/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA_info.o
-x/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_info.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.llvmgcc42
-lSLF07#2@159"Compile /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_info.c288903265#288903265#0(0"0(0#0#151"/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_info.c546928#1938"    cd /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fasm-blocks -force_cpusubtype_ALL -msoft-float -O3 -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -ftree-vectorize -fprofile-use -mmacosx-version-min=10.6 -fopenmp -iquote /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-generated-files.hmap -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-own-target-headers.hmap -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-all-target-headers.hmap -iquote /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-project-headers.hmap -F/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/System/Library/Frameworks/Kernel.framework/Headers -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/x86_64 -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources -c /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_info.c -o /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA_info.o0#
-
-CCompileC build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA_info.o /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_info.c normal x86_64 c com.apple.compilers.llvmgcc42
-s302075288.218790
-e302075288.256668
-r1
-xCompileC
-xbuild/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA_info.o
-x/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_info.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.llvmgcc42
-lSLF07#2@146"Compile /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_info.c302075288#302075288#0(0"0(0#0#138"/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_info.c8604840480#1795"    cd /Users/dopefish/Downloads/AppleNForceATA_Snow    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fasm-blocks -force_cpusubtype_ALL -msoft-float -O3 -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -ftree-vectorize -fprofile-use -mmacosx-version-min=10.6 -fopenmp -iquote /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-generated-files.hmap -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-own-target-headers.hmap -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-all-target-headers.hmap -iquote /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-project-headers.hmap -F/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/System/Library/Frameworks/Kernel.framework/Headers -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/x86_64 -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources -c /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_info.c -o /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA_info.o0#
-
-CCompileC build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA_vers.o /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_vers.c normal x86_64 c com.apple.compilers.llvmgcc42
-s288903265.196720
-e288903265.401928
-r1
-xCompileC
-xbuild/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA_vers.o
-x/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_vers.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.llvmgcc42
-lSLF07#2@159"Compile /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_vers.c288903265#288903265#0(0"0(0#0#151"/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_vers.c546928#1938"    cd /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fasm-blocks -force_cpusubtype_ALL -msoft-float -O3 -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -ftree-vectorize -fprofile-use -mmacosx-version-min=10.6 -fopenmp -iquote /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-generated-files.hmap -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-own-target-headers.hmap -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-all-target-headers.hmap -iquote /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-project-headers.hmap -F/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/System/Library/Frameworks/Kernel.framework/Headers -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/x86_64 -I/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources -c /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_vers.c -o /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA_vers.o0#
-
-CCompileC build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA_vers.o /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_vers.c normal x86_64 c com.apple.compilers.llvmgcc42
-s302075288.195807
-e302075288.218679
-r1
-xCompileC
-xbuild/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA_vers.o
-x/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_vers.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.llvmgcc42
-lSLF07#2@146"Compile /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_vers.c302075288#302075288#0(0"0(0#0#138"/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_vers.c8605212896#1795"    cd /Users/dopefish/Downloads/AppleNForceATA_Snow    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fasm-blocks -force_cpusubtype_ALL -msoft-float -O3 -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -ftree-vectorize -fprofile-use -mmacosx-version-min=10.6 -fopenmp -iquote /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-generated-files.hmap -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-own-target-headers.hmap -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-all-target-headers.hmap -iquote /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-project-headers.hmap -F/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/System/Library/Frameworks/Kernel.framework/Headers -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/x86_64 -I/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources -c /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_vers.c -o /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA_vers.o0#
-
-CCreateUniversalBinary /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release/AppleNForceATA.kext/Contents/MacOS/AppleNForceATA normal "i386 x86_64"
-s288903276.972886
-e288903277.074537
-r1
-xCreateUniversalBinary
-x/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release/AppleNForceATA.kext/Contents/MacOS/AppleNForceATA
-xnormal
-xi386 x86_64
-lSLF07#2@106"CreateUniversalBinary build/Release/AppleNForceATA.kext/Contents/MacOS/AppleNForceATA normal "i386 x86_64"288903276#288903277#0(0"0(0#0#70"/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/i386 x86_64546928#525"    cd /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA    /usr/bin/lipo -create /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA -output /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release/AppleNForceATA.kext/Contents/MacOS/AppleNForceATA0#
-
-CCreateUniversalBinary /Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release/AppleNForceATA.kext/Contents/MacOS/AppleNForceATA normal "i386 x86_64"
-s302075288.711222
-e302075288.717365
-r1
-xCreateUniversalBinary
-x/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release/AppleNForceATA.kext/Contents/MacOS/AppleNForceATA
-xnormal
-xi386 x86_64
-lSLF07#2@106"CreateUniversalBinary build/Release/AppleNForceATA.kext/Contents/MacOS/AppleNForceATA normal "i386 x86_64"302075288#302075288#0(0"0(0#0#57"/Users/dopefish/Downloads/AppleNForceATA_Snow/i386 x86_648603048000#473"    cd /Users/dopefish/Downloads/AppleNForceATA_Snow    /usr/bin/lipo -create /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA -output /Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release/AppleNForceATA.kext/Contents/MacOS/AppleNForceATA0#
-
-CLd /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA normal i386
-s288903265.792283
-e288903266.340887
-r1
-xLd
-x/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA
-xnormal
-xi386
-lSLF07#2@154"Link /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA288903265#288903266#0(0"0(0#0#0"546928#899"    cd /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/llvm-g++-4.2 -arch i386 -L/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release -F/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release -filelist /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA.LinkFileList -mmacosx-version-min=10.6 -fopenmp -lcpp_kext -fprofile-use -Xlinker -kext -nostdlib -lkmodc++ /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA_info.o -lkmod -lcc_kext -o /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA0#
-
-CLd /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA normal x86_64
-s288903276.743331
-e288903276.972384
-r1
-xLd
-x/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA
-xnormal
-xx86_64
-lSLF07#2@156"Link /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA288903276#288903277#0(0"0(0#0#0"546928#907"    cd /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/llvm-g++-4.2 -arch x86_64 -L/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release -F/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release -filelist /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA.LinkFileList -mmacosx-version-min=10.6 -fopenmp -lcpp_kext -fprofile-use -Xlinker -kext -nostdlib -lkmodc++ /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA_info.o -lkmod -lcc_kext -o /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA0#
-
-CLd /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA normal i386
-s302075288.061424
-e302075288.111203
-r1
-xLd
-x/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA
-xnormal
-xi386
-lSLF07#2@141"Link /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA302075288#302075288#0(0"0(0#0#0"8606888640#821"    cd /Users/dopefish/Downloads/AppleNForceATA_Snow    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/llvm-g++-4.2 -arch i386 -L/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release -F/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release -filelist /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA.LinkFileList -mmacosx-version-min=10.6 -fopenmp -lcpp_kext -fprofile-use -Xlinker -kext -nostdlib -lkmodc++ /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA_info.o -lkmod -lcc_kext -o /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA0#
-
-CLd /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA normal x86_64
-s302075288.688157
-e302075288.711106
-r1
-xLd
-x/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA
-xnormal
-xx86_64
-lSLF07#2@143"Link /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA302075288#302075288#0(0"0(0#0#0"8602639360#829"    cd /Users/dopefish/Downloads/AppleNForceATA_Snow    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/llvm-g++-4.2 -arch x86_64 -L/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release -F/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release -filelist /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA.LinkFileList -mmacosx-version-min=10.6 -fopenmp -lcpp_kext -fprofile-use -Xlinker -kext -nostdlib -lkmodc++ /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA_info.o -lkmod -lcc_kext -o /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA0#
-
-CPhaseScriptExecution Kextpostprocess /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Script-AB1D74B7113848F5006E2885.sh
-s288903277.074990
-e288903277.272287
-r1
-xPhaseScriptExecution
-xKextpostprocess
-x/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Script-AB1D74B7113848F5006E2885.sh
-lSLF07#2@41"Run custom shell script 'Kextpostprocess'288903277#288903277#0(0"0(0#0#0"546928#19179"    cd /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER andyvand    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS "i386 x86_64"    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386 ppc"    setenv ARCHS_STANDARD_32_BIT "i386 ppc"    setenv ARCHS_STANDARD_64_BIT x86_64    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build    setenv BUILD_ROOT /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build    setenv BUILD_STYLE Release    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release    setenv CACHE_ROOT /var/folders/xp/xp1U4zqRHt45myejNzzSe++++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/xp/xp1U4zqRHt45myejNzzSe++++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release/AppleNForceATA.kext    setenv CODE_SIGNING_ALLOWED YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/xp/xp1U4zqRHt45myejNzzSe++++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv CONFIGURATION Release    setenv CONFIGURATION_BUILD_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release    setenv CONFIGURATION_TEMP_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release    setenv CONTENTS_FOLDER_PATH AppleNForceATA.kext/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP YES    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH x86_64    setenv CURRENT_PROJECT_VERSION 1.0.4    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/AppleNForceATA.dst    setenv DWARF_DSYM_FILE_NAME AppleNForceATA.kext.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release    setenv DYLIB_COMPATIBILITY_VERSION 1.0.0d0    setenv DYLIB_CURRENT_VERSION 1.0.4    setenv ENABLE_APPLE_KEXT_CODE_GENERATION YES    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH AppleNForceATA.kext/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH AppleNForceATA.kext/Contents/MacOS    setenv EXECUTABLE_NAME AppleNForceATA    setenv EXECUTABLE_PATH AppleNForceATA.kext/Contents/MacOS/AppleNForceATA    setenv FILE_LIST /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH AppleNForceATA.kext/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME AppleNForceATA.kext    setenv GCC3_VERSION 3.3    setenv GCC_AUTO_VECTORIZATION YES    setenv GCC_CHECK_RETURN_VALUE_OF_OPERATOR_NEW YES    setenv GCC_DISABLE_STATIC_FUNCTION_INLINING YES    setenv GCC_ENABLE_BUILTIN_FUNCTIONS NO    setenv GCC_ENABLE_CPP_EXCEPTIONS NO    setenv GCC_ENABLE_CPP_RTTI NO    setenv GCC_ENABLE_FIX_AND_CONTINUE NO    setenv GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS YES    setenv GCC_ENABLE_FUNCTION_INLINING YES    setenv GCC_ENABLE_KERNEL_DEVELOPMENT YES    setenv GCC_ENABLE_PASCAL_STRINGS NO    setenv GCC_FEEDBACK_DIRECTED_OPTIMIZATION UseProfile    setenv GCC_FORCE_CPU_SUBTYPE_ALL YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN NO    setenv GCC_NO_COMMON_BLOCKS YES    setenv GCC_OBJC_CALL_CXX_CDTORS YES    setenv GCC_OPTIMIZATION_LEVEL 3    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRODUCT_TYPE_PREPROCESSOR_DEFINITIONS " KERNEL KERNEL_PRIVATE DRIVER_PRIVATE APPLE NeXT"    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_USE_STANDARD_INCLUDE_SEARCHING NO    setenv GCC_VERSION com.apple.compilers.llvmgcc42    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvmgcc42    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE NO    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH AppleNForceATA.kext/Contents/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR /tmp/AppleNForceATA.dst/System/Library/Extensions/IOATAFamily.kext/Contents/PlugIns    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER andyvand    setenv INSTALL_PATH /System/Library/Extensions/IOATAFamily.kext/Contents/PlugIns    setenv INSTALL_ROOT /tmp/AppleNForceATA.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH AppleNForceATA.kext/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv KERNEL_EXTENSION_HEADER_SEARCH_PATHS "/System/Library/Frameworks/Kernel.framework/PrivateHeaders /System/Library/Frameworks/Kernel.framework/Headers"    setenv KERNEL_FRAMEWORK /System/Library/Frameworks/Kernel.framework    setenv KERNEL_FRAMEWORK_HEADERS /System/Library/Frameworks/Kernel.framework/Headers    setenv KEXT_FAMILY_NAME family    setenv KEXT_FRAMEWORK /System/Library/Frameworks/Kernel.framework    setenv KEXT_FRAMEWORK_NAME Kernel    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-LinkMap-normal-x86_64.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA.LinkFileList    setenv LINK_FILE_LIST_normal_x86_64 /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_VERSION_ACTUAL 1062    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0602    setenv MODULE_NAME com.nvidia.driver.AppleNForceATA    setenv MODULE_START 0    setenv MODULE_STOP 0    setenv MODULE_VERSION 1.0.4    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL i386    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal    setenv OBJROOT /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv PACKAGE_TYPE com.apple.package-type.wrapper.kernel-extension    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH AppleNForceATA.kext/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS c++    setenv PKGINFO_FILE_PATH /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/PkgInfo    setenv PKGINFO_PATH AppleNForceATA.kext/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_NAME macosx    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH AppleNForceATA.kext/Contents/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH /System/Library/Frameworks/Kernel.framework/Contents/PrivateHeaders/family    setenv PRODUCT_NAME AppleNForceATA    setenv PRODUCT_SETTINGS_PATH /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/Info.plist    setenv PRODUCT_SPECIFIC_LDFLAGS -lcpp_kext    setenv PRODUCT_TYPE com.apple.product-type.kernel-extension.iokit    setenv PRODUCT_TYPE_HEADER_SEARCH_PATHS " /System/Library/Frameworks/Kernel.framework/PrivateHeaders /System/Library/Frameworks/Kernel.framework/Headers"    setenv PROFILING_CODE NO    setenv PROJECT AppleNForceATA    setenv PROJECT_DERIVED_FILE_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/DerivedSources    setenv PROJECT_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA    setenv PROJECT_FILE_PATH /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATA.xcodeproj    setenv PROJECT_NAME AppleNForceATA    setenv PROJECT_TEMP_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build    setenv PUBLIC_HEADERS_FOLDER_PATH /System/Library/Frameworks/Kernel.framework/Contents/Headers/family    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH AppleNForceATA.kext/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT     setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH AppleNForceATA.kext/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/xp/xp1U4zqRHt45myejNzzSe++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH AppleNForceATA.kext/Contents/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA    setenv SRCROOT /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE debugging    setenv SYMBOL_REPOSITORY_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/SymbolRepositories    setenv SYMROOT /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME AppleNForceATA    setenv TARGET_BUILD_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release    setenv TARGET_NAME AppleNForceATA    setenv TARGET_TEMP_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build    setenv TEMP_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build    setenv TEMP_FILES_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build    setenv TEMP_FILE_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build    setenv TEMP_ROOT /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH AppleNForceATA.kext/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER andyvand    setenv USER_APPS_DIR /Users/andyvand/Applications    setenv USER_LIBRARY_DIR /Users/andyvand/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALID_ARCHS "i386 ppc ppc64 ppc7400 ppc970 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONING_STUB /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_vers.c    setenv VERSIONING_SYSTEM apple-generic    setenv VERSIONPLIST_PATH AppleNForceATA.kext/Contents/version.plist    setenv VERSION_INFO_BUILDER "AnV Software"    setenv VERSION_INFO_FILE AppleNForceATA_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:AppleNForceATA  PROJECT:AppleNForceATA-1.0.4\""    setenv WRAPPER_EXTENSION kext    setenv WRAPPER_NAME AppleNForceATA.kext    setenv WRAPPER_SUFFIX .kext    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0320    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    setenv ZERO_LINK NO    /bin/sh -c /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Script-AB1D74B7113848F5006E2885.sh0#
-
-CPhaseScriptExecution Kextpostprocess /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Script-AB1D74B7113848F5006E2885.sh
-s302075288.717447
-e302075288.731874
-r1
-xPhaseScriptExecution
-xKextpostprocess
-x/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Script-AB1D74B7113848F5006E2885.sh
-lSLF07#2@41"Run custom shell script 'Kextpostprocess'302075288#302075288#0(0"0(0#0#0"8607859808#18614"    cd /Users/dopefish/Downloads/AppleNForceATA_Snow    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER dopefish    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS "i386 x86_64"    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386 ppc"    setenv ARCHS_STANDARD_32_BIT "i386 ppc"    setenv ARCHS_STANDARD_64_BIT x86_64    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build    setenv BUILD_ROOT /Users/dopefish/Downloads/AppleNForceATA_Snow/build    setenv BUILD_STYLE Release    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release    setenv CACHE_ROOT /var/folders/Uy/UyQJi4LUEIqn+8fhrFrUfU+++TM/-Caches-/com.apple.Xcode.502    setenv CCHROOT /var/folders/Uy/UyQJi4LUEIqn+8fhrFrUfU+++TM/-Caches-/com.apple.Xcode.502    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release/AppleNForceATA.kext    setenv CODE_SIGNING_ALLOWED YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/Uy/UyQJi4LUEIqn+8fhrFrUfU+++TM/-Caches-/com.apple.Xcode.502/CompositeSDKs    setenv CONFIGURATION Release    setenv CONFIGURATION_BUILD_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release    setenv CONFIGURATION_TEMP_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release    setenv CONTENTS_FOLDER_PATH AppleNForceATA.kext/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP YES    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH x86_64    setenv CURRENT_PROJECT_VERSION 1.0.4    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/AppleNForceATA.dst    setenv DWARF_DSYM_FILE_NAME AppleNForceATA.kext.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release    setenv DYLIB_COMPATIBILITY_VERSION 1.0.0d0    setenv DYLIB_CURRENT_VERSION 1.0.4    setenv ENABLE_APPLE_KEXT_CODE_GENERATION YES    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH AppleNForceATA.kext/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH AppleNForceATA.kext/Contents/MacOS    setenv EXECUTABLE_NAME AppleNForceATA    setenv EXECUTABLE_PATH AppleNForceATA.kext/Contents/MacOS/AppleNForceATA    setenv FILE_LIST /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH AppleNForceATA.kext/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME AppleNForceATA.kext    setenv GCC3_VERSION 3.3    setenv GCC_AUTO_VECTORIZATION YES    setenv GCC_CHECK_RETURN_VALUE_OF_OPERATOR_NEW YES    setenv GCC_DISABLE_STATIC_FUNCTION_INLINING YES    setenv GCC_ENABLE_BUILTIN_FUNCTIONS NO    setenv GCC_ENABLE_CPP_EXCEPTIONS NO    setenv GCC_ENABLE_CPP_RTTI NO    setenv GCC_ENABLE_FIX_AND_CONTINUE NO    setenv GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS YES    setenv GCC_ENABLE_FUNCTION_INLINING YES    setenv GCC_ENABLE_KERNEL_DEVELOPMENT YES    setenv GCC_ENABLE_PASCAL_STRINGS NO    setenv GCC_FEEDBACK_DIRECTED_OPTIMIZATION UseProfile    setenv GCC_FORCE_CPU_SUBTYPE_ALL YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN NO    setenv GCC_NO_COMMON_BLOCKS YES    setenv GCC_OBJC_CALL_CXX_CDTORS YES    setenv GCC_OPTIMIZATION_LEVEL 3    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRODUCT_TYPE_PREPROCESSOR_DEFINITIONS " KERNEL KERNEL_PRIVATE DRIVER_PRIVATE APPLE NeXT"    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_USE_STANDARD_INCLUDE_SEARCHING NO    setenv GCC_VERSION com.apple.compilers.llvmgcc42    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvmgcc42    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE NO    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH AppleNForceATA.kext/Contents/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR /tmp/AppleNForceATA.dst/System/Library/Extensions/IOATAFamily.kext/Contents/PlugIns    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER dopefish    setenv INSTALL_PATH /System/Library/Extensions/IOATAFamily.kext/Contents/PlugIns    setenv INSTALL_ROOT /tmp/AppleNForceATA.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH AppleNForceATA.kext/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv KERNEL_EXTENSION_HEADER_SEARCH_PATHS "/System/Library/Frameworks/Kernel.framework/PrivateHeaders /System/Library/Frameworks/Kernel.framework/Headers"    setenv KERNEL_FRAMEWORK /System/Library/Frameworks/Kernel.framework    setenv KERNEL_FRAMEWORK_HEADERS /System/Library/Frameworks/Kernel.framework/Headers    setenv KEXT_FAMILY_NAME family    setenv KEXT_FRAMEWORK /System/Library/Frameworks/Kernel.framework    setenv KEXT_FRAMEWORK_NAME Kernel    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-LinkMap-normal-x86_64.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA.LinkFileList    setenv LINK_FILE_LIST_normal_x86_64 /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_VERSION_ACTUAL 1064    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0604    setenv MODULE_NAME com.nvidia.driver.AppleNForceATA    setenv MODULE_START 0    setenv MODULE_STOP 0    setenv MODULE_VERSION 1.0.4    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal    setenv OBJROOT /Users/dopefish/Downloads/AppleNForceATA_Snow/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv PACKAGE_TYPE com.apple.package-type.wrapper.kernel-extension    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH AppleNForceATA.kext/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS c++    setenv PKGINFO_FILE_PATH /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/PkgInfo    setenv PKGINFO_PATH AppleNForceATA.kext/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_NAME macosx    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH AppleNForceATA.kext/Contents/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH /System/Library/Frameworks/Kernel.framework/Contents/PrivateHeaders/family    setenv PRODUCT_NAME AppleNForceATA    setenv PRODUCT_SETTINGS_PATH /Users/dopefish/Downloads/AppleNForceATA_Snow/Info.plist    setenv PRODUCT_SPECIFIC_LDFLAGS -lcpp_kext    setenv PRODUCT_TYPE com.apple.product-type.kernel-extension.iokit    setenv PRODUCT_TYPE_HEADER_SEARCH_PATHS " /System/Library/Frameworks/Kernel.framework/PrivateHeaders /System/Library/Frameworks/Kernel.framework/Headers"    setenv PROFILING_CODE NO    setenv PROJECT AppleNForceATA    setenv PROJECT_DERIVED_FILE_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/DerivedSources    setenv PROJECT_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow    setenv PROJECT_FILE_PATH /Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATA.xcodeproj    setenv PROJECT_NAME AppleNForceATA    setenv PROJECT_TEMP_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build    setenv PUBLIC_HEADERS_FOLDER_PATH /System/Library/Frameworks/Kernel.framework/Contents/Headers/family    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH AppleNForceATA.kext/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT     setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH AppleNForceATA.kext/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/Uy/UyQJi4LUEIqn+8fhrFrUfU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH AppleNForceATA.kext/Contents/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/dopefish/Downloads/AppleNForceATA_Snow    setenv SRCROOT /Users/dopefish/Downloads/AppleNForceATA_Snow    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE debugging    setenv SYMBOL_REPOSITORY_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/SymbolRepositories    setenv SYMROOT /Users/dopefish/Downloads/AppleNForceATA_Snow/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME AppleNForceATA    setenv TARGET_BUILD_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release    setenv TARGET_NAME AppleNForceATA    setenv TARGET_TEMP_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build    setenv TEMP_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build    setenv TEMP_FILES_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build    setenv TEMP_FILE_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build    setenv TEMP_ROOT /Users/dopefish/Downloads/AppleNForceATA_Snow/build    setenv UID 502    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH AppleNForceATA.kext/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER dopefish    setenv USER_APPS_DIR /Users/dopefish/Applications    setenv USER_LIBRARY_DIR /Users/dopefish/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 ppc ppc64 ppc7400 ppc970 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONING_STUB /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources/AppleNForceATA_vers.c    setenv VERSIONING_SYSTEM apple-generic    setenv VERSIONPLIST_PATH AppleNForceATA.kext/Contents/version.plist    setenv VERSION_INFO_BUILDER "AnV Software"    setenv VERSION_INFO_FILE AppleNForceATA_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:AppleNForceATA  PROJECT:AppleNForceATA-1.0.4\""    setenv WRAPPER_EXTENSION kext    setenv WRAPPER_NAME AppleNForceATA.kext    setenv WRAPPER_SUFFIX .kext    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0323    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    setenv ZERO_LINK NO    /bin/sh -c /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Script-AB1D74B7113848F5006E2885.sh0#
-
-CPhaseScriptExecution Kextpreprocess /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Script-AB1D74B9113848FB006E2885.sh
-s288903253.804135
-e288903253.931885
-r1
-xPhaseScriptExecution
-xKextpreprocess
-x/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Script-AB1D74B9113848FB006E2885.sh
-lSLF07#2@40"Run custom shell script 'Kextpreprocess'288903253#288903254#0(0"0(0#0#0"546928#19000"    cd /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER andyvand    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS "i386 x86_64"    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386 ppc"    setenv ARCHS_STANDARD_32_BIT "i386 ppc"    setenv ARCHS_STANDARD_64_BIT x86_64    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build    setenv BUILD_ROOT /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build    setenv BUILD_STYLE Release    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release    setenv CACHE_ROOT /var/folders/xp/xp1U4zqRHt45myejNzzSe++++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/xp/xp1U4zqRHt45myejNzzSe++++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release/AppleNForceATA.kext    setenv CODE_SIGNING_ALLOWED YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/xp/xp1U4zqRHt45myejNzzSe++++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv CONFIGURATION Release    setenv CONFIGURATION_BUILD_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release    setenv CONFIGURATION_TEMP_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release    setenv CONTENTS_FOLDER_PATH AppleNForceATA.kext/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP YES    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH x86_64    setenv CURRENT_PROJECT_VERSION 1.0.4    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/AppleNForceATA.dst    setenv DWARF_DSYM_FILE_NAME AppleNForceATA.kext.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release    setenv DYLIB_COMPATIBILITY_VERSION 1.0.0d0    setenv DYLIB_CURRENT_VERSION 1.0.4    setenv ENABLE_APPLE_KEXT_CODE_GENERATION YES    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH AppleNForceATA.kext/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH AppleNForceATA.kext/Contents/MacOS    setenv EXECUTABLE_NAME AppleNForceATA    setenv EXECUTABLE_PATH AppleNForceATA.kext/Contents/MacOS/AppleNForceATA    setenv FILE_LIST /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH AppleNForceATA.kext/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME AppleNForceATA.kext    setenv GCC3_VERSION 3.3    setenv GCC_AUTO_VECTORIZATION YES    setenv GCC_CHECK_RETURN_VALUE_OF_OPERATOR_NEW YES    setenv GCC_DISABLE_STATIC_FUNCTION_INLINING YES    setenv GCC_ENABLE_BUILTIN_FUNCTIONS NO    setenv GCC_ENABLE_CPP_EXCEPTIONS NO    setenv GCC_ENABLE_CPP_RTTI NO    setenv GCC_ENABLE_FIX_AND_CONTINUE NO    setenv GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS YES    setenv GCC_ENABLE_FUNCTION_INLINING YES    setenv GCC_ENABLE_KERNEL_DEVELOPMENT YES    setenv GCC_ENABLE_PASCAL_STRINGS NO    setenv GCC_FEEDBACK_DIRECTED_OPTIMIZATION UseProfile    setenv GCC_FORCE_CPU_SUBTYPE_ALL YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN NO    setenv GCC_NO_COMMON_BLOCKS YES    setenv GCC_OBJC_CALL_CXX_CDTORS YES    setenv GCC_OPTIMIZATION_LEVEL 3    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRODUCT_TYPE_PREPROCESSOR_DEFINITIONS " KERNEL KERNEL_PRIVATE DRIVER_PRIVATE APPLE NeXT"    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_USE_STANDARD_INCLUDE_SEARCHING NO    setenv GCC_VERSION com.apple.compilers.llvmgcc42    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvmgcc42    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE NO    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH AppleNForceATA.kext/Contents/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR /tmp/AppleNForceATA.dst/System/Library/Extensions/IOATAFamily.kext/Contents/PlugIns    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER andyvand    setenv INSTALL_PATH /System/Library/Extensions/IOATAFamily.kext/Contents/PlugIns    setenv INSTALL_ROOT /tmp/AppleNForceATA.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH AppleNForceATA.kext/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv KERNEL_EXTENSION_HEADER_SEARCH_PATHS "/System/Library/Frameworks/Kernel.framework/PrivateHeaders /System/Library/Frameworks/Kernel.framework/Headers"    setenv KERNEL_FRAMEWORK /System/Library/Frameworks/Kernel.framework    setenv KERNEL_FRAMEWORK_HEADERS /System/Library/Frameworks/Kernel.framework/Headers    setenv KEXT_FAMILY_NAME family    setenv KEXT_FRAMEWORK /System/Library/Frameworks/Kernel.framework    setenv KEXT_FRAMEWORK_NAME Kernel    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-LinkMap-normal-x86_64.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA.LinkFileList    setenv LINK_FILE_LIST_normal_x86_64 /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_VERSION_ACTUAL 1062    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0602    setenv MODULE_NAME com.nvidia.driver.AppleNForceATA    setenv MODULE_START 0    setenv MODULE_STOP 0    setenv MODULE_VERSION 1.0.4    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL i386    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal    setenv OBJROOT /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv PACKAGE_TYPE com.apple.package-type.wrapper.kernel-extension    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH AppleNForceATA.kext/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS c++    setenv PKGINFO_FILE_PATH /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/PkgInfo    setenv PKGINFO_PATH AppleNForceATA.kext/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_NAME macosx    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH AppleNForceATA.kext/Contents/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH /System/Library/Frameworks/Kernel.framework/Contents/PrivateHeaders/family    setenv PRODUCT_NAME AppleNForceATA    setenv PRODUCT_SETTINGS_PATH /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/Info.plist    setenv PRODUCT_SPECIFIC_LDFLAGS -lcpp_kext    setenv PRODUCT_TYPE com.apple.product-type.kernel-extension.iokit    setenv PRODUCT_TYPE_HEADER_SEARCH_PATHS " /System/Library/Frameworks/Kernel.framework/PrivateHeaders /System/Library/Frameworks/Kernel.framework/Headers"    setenv PROFILING_CODE NO    setenv PROJECT AppleNForceATA    setenv PROJECT_DERIVED_FILE_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/DerivedSources    setenv PROJECT_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA    setenv PROJECT_FILE_PATH /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/AppleNForceATA.xcodeproj    setenv PROJECT_NAME AppleNForceATA    setenv PROJECT_TEMP_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build    setenv PUBLIC_HEADERS_FOLDER_PATH /System/Library/Frameworks/Kernel.framework/Contents/Headers/family    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH AppleNForceATA.kext/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT     setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH AppleNForceATA.kext/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/xp/xp1U4zqRHt45myejNzzSe++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH AppleNForceATA.kext/Contents/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA    setenv SRCROOT /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE debugging    setenv SYMBOL_REPOSITORY_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/SymbolRepositories    setenv SYMROOT /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME AppleNForceATA    setenv TARGET_BUILD_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release    setenv TARGET_NAME AppleNForceATA    setenv TARGET_TEMP_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build    setenv TEMP_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build    setenv TEMP_FILES_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build    setenv TEMP_FILE_DIR /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build    setenv TEMP_ROOT /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH AppleNForceATA.kext/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER andyvand    setenv USER_APPS_DIR /Users/andyvand/Applications    setenv USER_LIBRARY_DIR /Users/andyvand/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALID_ARCHS "i386 ppc ppc64 ppc7400 ppc970 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONING_SYSTEM apple-generic    setenv VERSIONPLIST_PATH AppleNForceATA.kext/Contents/version.plist    setenv VERSION_INFO_BUILDER "AnV Software"    setenv VERSION_INFO_FILE AppleNForceATA_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:AppleNForceATA  PROJECT:AppleNForceATA-1.0.4\""    setenv WRAPPER_EXTENSION kext    setenv WRAPPER_NAME AppleNForceATA.kext    setenv WRAPPER_SUFFIX .kext    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0320    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    setenv ZERO_LINK NO    /bin/sh -c /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/AppleNForceATA.build/Release/AppleNForceATA.build/Script-AB1D74B9113848FB006E2885.sh0#
-
-CPhaseScriptExecution Kextpreprocess /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Script-AB1D74B9113848FB006E2885.sh
-s302075287.155545
-e302075287.171516
-r1
-xPhaseScriptExecution
-xKextpreprocess
-x/Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Script-AB1D74B9113848FB006E2885.sh
-lSLF07#2@40"Run custom shell script 'Kextpreprocess'302075287#302075287#0(0"0(0#0#0"8607725344#18448"    cd /Users/dopefish/Downloads/AppleNForceATA_Snow    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER dopefish    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS "i386 x86_64"    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386 ppc"    setenv ARCHS_STANDARD_32_BIT "i386 ppc"    setenv ARCHS_STANDARD_64_BIT x86_64    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build    setenv BUILD_ROOT /Users/dopefish/Downloads/AppleNForceATA_Snow/build    setenv BUILD_STYLE Release    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release    setenv CACHE_ROOT /var/folders/Uy/UyQJi4LUEIqn+8fhrFrUfU+++TM/-Caches-/com.apple.Xcode.502    setenv CCHROOT /var/folders/Uy/UyQJi4LUEIqn+8fhrFrUfU+++TM/-Caches-/com.apple.Xcode.502    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release/AppleNForceATA.kext    setenv CODE_SIGNING_ALLOWED YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/Uy/UyQJi4LUEIqn+8fhrFrUfU+++TM/-Caches-/com.apple.Xcode.502/CompositeSDKs    setenv CONFIGURATION Release    setenv CONFIGURATION_BUILD_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release    setenv CONFIGURATION_TEMP_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release    setenv CONTENTS_FOLDER_PATH AppleNForceATA.kext/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP YES    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH x86_64    setenv CURRENT_PROJECT_VERSION 1.0.4    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/AppleNForceATA.dst    setenv DWARF_DSYM_FILE_NAME AppleNForceATA.kext.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release    setenv DYLIB_COMPATIBILITY_VERSION 1.0.0d0    setenv DYLIB_CURRENT_VERSION 1.0.4    setenv ENABLE_APPLE_KEXT_CODE_GENERATION YES    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH AppleNForceATA.kext/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH AppleNForceATA.kext/Contents/MacOS    setenv EXECUTABLE_NAME AppleNForceATA    setenv EXECUTABLE_PATH AppleNForceATA.kext/Contents/MacOS/AppleNForceATA    setenv FILE_LIST /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH AppleNForceATA.kext/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME AppleNForceATA.kext    setenv GCC3_VERSION 3.3    setenv GCC_AUTO_VECTORIZATION YES    setenv GCC_CHECK_RETURN_VALUE_OF_OPERATOR_NEW YES    setenv GCC_DISABLE_STATIC_FUNCTION_INLINING YES    setenv GCC_ENABLE_BUILTIN_FUNCTIONS NO    setenv GCC_ENABLE_CPP_EXCEPTIONS NO    setenv GCC_ENABLE_CPP_RTTI NO    setenv GCC_ENABLE_FIX_AND_CONTINUE NO    setenv GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS YES    setenv GCC_ENABLE_FUNCTION_INLINING YES    setenv GCC_ENABLE_KERNEL_DEVELOPMENT YES    setenv GCC_ENABLE_PASCAL_STRINGS NO    setenv GCC_FEEDBACK_DIRECTED_OPTIMIZATION UseProfile    setenv GCC_FORCE_CPU_SUBTYPE_ALL YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN NO    setenv GCC_NO_COMMON_BLOCKS YES    setenv GCC_OBJC_CALL_CXX_CDTORS YES    setenv GCC_OPTIMIZATION_LEVEL 3    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRODUCT_TYPE_PREPROCESSOR_DEFINITIONS " KERNEL KERNEL_PRIVATE DRIVER_PRIVATE APPLE NeXT"    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_USE_STANDARD_INCLUDE_SEARCHING NO    setenv GCC_VERSION com.apple.compilers.llvmgcc42    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvmgcc42    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE NO    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH AppleNForceATA.kext/Contents/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR /tmp/AppleNForceATA.dst/System/Library/Extensions/IOATAFamily.kext/Contents/PlugIns    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER dopefish    setenv INSTALL_PATH /System/Library/Extensions/IOATAFamily.kext/Contents/PlugIns    setenv INSTALL_ROOT /tmp/AppleNForceATA.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH AppleNForceATA.kext/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv KERNEL_EXTENSION_HEADER_SEARCH_PATHS "/System/Library/Frameworks/Kernel.framework/PrivateHeaders /System/Library/Frameworks/Kernel.framework/Headers"    setenv KERNEL_FRAMEWORK /System/Library/Frameworks/Kernel.framework    setenv KERNEL_FRAMEWORK_HEADERS /System/Library/Frameworks/Kernel.framework/Headers    setenv KEXT_FAMILY_NAME family    setenv KEXT_FRAMEWORK /System/Library/Frameworks/Kernel.framework    setenv KEXT_FRAMEWORK_NAME Kernel    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/AppleNForceATA-LinkMap-normal-x86_64.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/i386/AppleNForceATA.LinkFileList    setenv LINK_FILE_LIST_normal_x86_64 /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal/x86_64/AppleNForceATA.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_VERSION_ACTUAL 1064    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0604    setenv MODULE_NAME com.nvidia.driver.AppleNForceATA    setenv MODULE_START 0    setenv MODULE_STOP 0    setenv MODULE_VERSION 1.0.4    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Objects-normal    setenv OBJROOT /Users/dopefish/Downloads/AppleNForceATA_Snow/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv PACKAGE_TYPE com.apple.package-type.wrapper.kernel-extension    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH AppleNForceATA.kext/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS c++    setenv PKGINFO_FILE_PATH /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/PkgInfo    setenv PKGINFO_PATH AppleNForceATA.kext/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_NAME macosx    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH AppleNForceATA.kext/Contents/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH /System/Library/Frameworks/Kernel.framework/Contents/PrivateHeaders/family    setenv PRODUCT_NAME AppleNForceATA    setenv PRODUCT_SETTINGS_PATH /Users/dopefish/Downloads/AppleNForceATA_Snow/Info.plist    setenv PRODUCT_SPECIFIC_LDFLAGS -lcpp_kext    setenv PRODUCT_TYPE com.apple.product-type.kernel-extension.iokit    setenv PRODUCT_TYPE_HEADER_SEARCH_PATHS " /System/Library/Frameworks/Kernel.framework/PrivateHeaders /System/Library/Frameworks/Kernel.framework/Headers"    setenv PROFILING_CODE NO    setenv PROJECT AppleNForceATA    setenv PROJECT_DERIVED_FILE_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/DerivedSources    setenv PROJECT_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow    setenv PROJECT_FILE_PATH /Users/dopefish/Downloads/AppleNForceATA_Snow/AppleNForceATA.xcodeproj    setenv PROJECT_NAME AppleNForceATA    setenv PROJECT_TEMP_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build    setenv PUBLIC_HEADERS_FOLDER_PATH /System/Library/Frameworks/Kernel.framework/Contents/Headers/family    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH AppleNForceATA.kext/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT     setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH AppleNForceATA.kext/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/Uy/UyQJi4LUEIqn+8fhrFrUfU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH AppleNForceATA.kext/Contents/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/dopefish/Downloads/AppleNForceATA_Snow    setenv SRCROOT /Users/dopefish/Downloads/AppleNForceATA_Snow    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE debugging    setenv SYMBOL_REPOSITORY_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/SymbolRepositories    setenv SYMROOT /Users/dopefish/Downloads/AppleNForceATA_Snow/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME AppleNForceATA    setenv TARGET_BUILD_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release    setenv TARGET_NAME AppleNForceATA    setenv TARGET_TEMP_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build    setenv TEMP_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build    setenv TEMP_FILES_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build    setenv TEMP_FILE_DIR /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build    setenv TEMP_ROOT /Users/dopefish/Downloads/AppleNForceATA_Snow/build    setenv UID 502    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH AppleNForceATA.kext/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER dopefish    setenv USER_APPS_DIR /Users/dopefish/Applications    setenv USER_LIBRARY_DIR /Users/dopefish/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 ppc ppc64 ppc7400 ppc970 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONING_SYSTEM apple-generic    setenv VERSIONPLIST_PATH AppleNForceATA.kext/Contents/version.plist    setenv VERSION_INFO_BUILDER "AnV Software"    setenv VERSION_INFO_FILE AppleNForceATA_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:AppleNForceATA  PROJECT:AppleNForceATA-1.0.4\""    setenv WRAPPER_EXTENSION kext    setenv WRAPPER_NAME AppleNForceATA.kext    setenv WRAPPER_SUFFIX .kext    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0323    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    setenv ZERO_LINK NO    /bin/sh -c /Users/dopefish/Downloads/AppleNForceATA_Snow/build/AppleNForceATA.build/Release/AppleNForceATA.build/Script-AB1D74B9113848FB006E2885.sh0#
-
-CProcessInfoPlistFile /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release/AppleNForceATA.kext/Contents/Info.plist Info.plist
-s288903253.780910
-e288903253.803668
-r1
-xProcessInfoPlistFile
-x/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release/AppleNForceATA.kext/Contents/Info.plist
-xInfo.plist
-lSLF07#2@18"Process Info.plist288903253#288903253#0(0"0(0#0#69"/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/Info.plist546928#260"    cd /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA    builtin-infoPlistUtility Info.plist -expandbuildsettings -platform macosx -o /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release/AppleNForceATA.kext/Contents/Info.plist0#
-
-CProcessInfoPlistFile /Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release/AppleNForceATA.kext/Contents/Info.plist Info.plist
-s302075287.144529
-e302075287.155461
-r1
-xProcessInfoPlistFile
-x/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release/AppleNForceATA.kext/Contents/Info.plist
-xInfo.plist
-lSLF07#2@18"Process Info.plist302075287#302075287#0(0"0(0#0#56"/Users/dopefish/Downloads/AppleNForceATA_Snow/Info.plist8602716416#234"    cd /Users/dopefish/Downloads/AppleNForceATA_Snow    builtin-infoPlistUtility Info.plist -expandbuildsettings -platform macosx -o /Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release/AppleNForceATA.kext/Contents/Info.plist0#
-
-CTouch /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release/AppleNForceATA.kext
-s288903277.276911
-e288903277.327865
-r1
-xTouch
-x/Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release/AppleNForceATA.kext
-lSLF07#2@98"Touch /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release/AppleNForceATA.kext288903277#288903277#0(0"0(0#0#0"546928#181"    cd /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA    /usr/bin/touch -c /Users/andyvand/Downloads/ATADrv/darwin-ata/AppleNForceATA/build/Release/AppleNForceATA.kext0#
-
-CTouch /Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release/AppleNForceATA.kext
-s302075288.731966
-e302075288.734925
-r1
-xTouch
-x/Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release/AppleNForceATA.kext
-lSLF07#2@85"Touch /Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release/AppleNForceATA.kext302075288#302075288#0(0"0(0#0#0"8607707808#155"    cd /Users/dopefish/Downloads/AppleNForceATA_Snow    /usr/bin/touch -c /Users/dopefish/Downloads/AppleNForceATA_Snow/build/Release/AppleNForceATA.kext0#
-

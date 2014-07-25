@@ -131,8 +131,8 @@ bool AppleNForceATA::start( IOService * provider )
     fChannelNumber = fProvider->getChannelNumber();
     if ( fChannelNumber > SEC_CHANNEL_ID )
     {
-        DEBUG_LOG("%s: bad ATA channel number %ld\n", getName(),
-                  fChannelNumber);
+        DEBUG_LOG("%s: bad ATA channel number %u\n", getName(),
+                  (unsigned int)fChannelNumber);
         goto fail;
     }
 	
@@ -418,15 +418,15 @@ bool AppleNForceATA::getBMBaseAddress( UInt32   channel,
 {
     UInt32 bmiba;
 
-    DEBUG_LOG("%s::%s( %p, %ld, %p )\n", getName(), __FUNCTION__,
-              this, channel, baseAddr);
+    DEBUG_LOG("%s::%s( %p, %u, %p )\n", getName(), __FUNCTION__,
+              this, (unsigned int)channel, baseAddr);
 
     bmiba = fProvider->pciConfigRead32( PCI_BMIBA );
 
     if ((bmiba & PCI_BMIBA_RTE) == 0)
     {
-        DEBUG_LOG("%s: PCI BAR 0x%02x (0x%08lx) is not an I/O range\n",
-                  getName(), PCI_BMIBA, bmiba);
+        DEBUG_LOG("%s: PCI BAR 0x%02x (0x%08x) is not an I/O range\n",
+                  getName(), PCI_BMIBA, (unsigned int)bmiba);
         return false;
     }
 
@@ -689,8 +689,8 @@ IOReturn AppleNForceATA::provideBusInfo( IOATABusInfo * infoOut )
 IOReturn AppleNForceATA::getConfig( IOATADevConfig * configOut,
                                        UInt32           unit )
 {
-    DEBUG_LOG("%s::%s( %p, %p, %ld )\n", getName(), __FUNCTION__,
-              this, configOut, unit);
+    DEBUG_LOG("%s::%s( %p, %p, %u )\n", getName(), __FUNCTION__,
+              this, configOut, (unsigned int)unit);
 
     if ((configOut == 0) || (unit > kATADevice1DeviceID))
     {
@@ -736,8 +736,8 @@ IOReturn AppleNForceATA::getConfig( IOATADevConfig * configOut,
 IOReturn AppleNForceATA::selectConfig( IOATADevConfig * configRequest,
                                           UInt32           unit )
 {
-    DEBUG_LOG("%s::%s( %p, %p, %ld )\n", getName(), __FUNCTION__,
-              this, configRequest, unit);
+    DEBUG_LOG("%s::%s( %p, %p, %u )\n", getName(), __FUNCTION__,
+              this, configRequest, (unsigned int)unit);
 
     if ((configRequest == 0) || (unit > kATADevice1DeviceID))
     {
@@ -1059,7 +1059,7 @@ void AppleNForceATA::initializeHardware( void )
 		_mmapaddr = (void*)_mmap->getVirtualAddress();
 		if (_mmapaddr == 0) return;
 
-		DEBUG_LOG("%s::%s mapped memory at 0x%x\n", getName(), __FUNCTION__, (uintptr_t)_mmapaddr);
+		DEBUG_LOG("%s::%s mapped memory at 0x%lx\n", getName(), __FUNCTION__, (uintptr_t)_mmapaddr);
 		
 		// enable control access
 		_pcidevice->configWrite8( 0x50, _pcidevice->configRead8( 0x50 ) | 0x04 );
@@ -1126,7 +1126,7 @@ IOReturn AppleNForceATA::handleQueueFlush( void )
 
     IOATABusCommand * cmdPtr = 0;
 
-    while ( cmdPtr = dequeueFirstCommand() )
+    while ( cmdPtr == dequeueFirstCommand() )
     {
         cmdPtr->setResult( kIOReturnError );
         cmdPtr->executeCallback();
@@ -1470,13 +1470,7 @@ void AppleNForceATA::dumpHardwareRegisters( void )
     {
         if (DRIVE_IS_PRESENT(unit) == false) continue;
 
-        DEBUG_LOG("[ Ch%ld Drive%ld ]\n", fChannelNumber, (long int)unit);
-        DEBUG_LOG("Command Active   %ld ns\n", readTimingIntervalNS(kTimingRegCommandActive, unit));
-        DEBUG_LOG("Command Recovery %ld ns\n", readTimingIntervalNS(kTimingRegCommandRecovery, unit));
-        DEBUG_LOG("Address Setup    %ld ns\n", readTimingIntervalNS(kTimingRegAddressSetup, unit));
-        DEBUG_LOG("Data Active      %ld ns\n", readTimingIntervalNS(kTimingRegDataActive, unit));
-        DEBUG_LOG("Data Recovery    %ld ns\n", readTimingIntervalNS(kTimingRegDataRecovery, unit));
-
+        DEBUG_LOG("[ Ch%u Drive%ld ]\n", (unsigned int)fChannelNumber, (long int)unit);
         if (fBusTimings[unit].ultraEnabled)
         {
             DEBUG_LOG("UDMA Timing      0x%02x\n", readTimingRegister(kTimingRegUltra, unit));

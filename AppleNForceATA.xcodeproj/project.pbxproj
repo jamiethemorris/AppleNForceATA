@@ -128,9 +128,15 @@
 /* Begin PBXProject section */
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = 01D852270B620C1300C91047 /* Build configuration list for PBXProject "AppleNForceATA" */;
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 089C166AFE841209C02AAC07 /* AppleNForceATA */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -225,10 +231,7 @@
 		01D852290B620C1300C91047 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					i386,
-					x86_64,
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
 				CURRENT_PROJECT_VERSION = 1.0.4;
 				DYLIB_COMPATIBILITY_VERSION = 1.0.0d0;
 				DYLIB_CURRENT_VERSION = 1.0.4;
@@ -239,8 +242,8 @@
 				GCC_MODEL_TUNING = "";
 				GCC_OBJC_CALL_CXX_CDTORS = YES;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				GCC_VERSION = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MODULE_VERSION = 1.0.4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_BUILDER = "AnV Software";
